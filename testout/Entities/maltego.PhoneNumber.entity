@@ -1,0 +1,31 @@
+<MaltegoEntity id="maltego.PhoneNumber" displayName="Phone Number" displayNamePlural="Phone Numbers" description="A telephone number" category="Personal" smallIconResource="Phone" largeIconResource="Phone" allowedRoot="true" conversionOrder="110" visible="true">
+   <Converter>
+      <Value><![CDATA[(\+\d{1,3})??[\-\ ]??([\(]?\d{1,3}[\)]?)??[\-\ ]?(\d{3,4})[\-\ ]?(\d{3,4})$]]></Value>
+      <RegexGroups>
+         <RegexGroup property="phonenumber.countrycode"/>
+         <RegexGroup property="phonenumber.citycode"/>
+         <RegexGroup property="phonenumber.areacode"/>
+         <RegexGroup property="phonenumber.lastnumbers"/>
+      </RegexGroups>
+   </Converter>
+   <Properties value="phonenumber">
+      <Fields>
+         <Field name="phonenumber" type="string" nullable="true" hidden="false" readonly="false" description="" evaluator="maltego.replace" displayName="Phone Number">
+            <DefaultValue>$trim($property(phonenumber.countrycode) $property(phonenumber.citycode) $property(phonenumber.areacode) $property(phonenumber.lastnumbers))</DefaultValue>
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="phonenumber.countrycode" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Country Code">
+            <SampleValue>27</SampleValue>
+         </Field>
+         <Field name="phonenumber.citycode" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="City Code">
+            <SampleValue>12</SampleValue>
+         </Field>
+         <Field name="phonenumber.areacode" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Area Code">
+            <SampleValue>667</SampleValue>
+         </Field>
+         <Field name="phonenumber.lastnumbers" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Last Digits">
+            <SampleValue>0000</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

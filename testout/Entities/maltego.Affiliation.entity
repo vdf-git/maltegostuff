@@ -1,0 +1,18 @@
+<MaltegoEntity id="maltego.Affiliation" displayName="Affiliation" displayNamePlural="Affiliations" description="Membership of a social network" category="Social Network" smallIconResource="Facebook" largeIconResource="Facebook" allowedRoot="false" conversionOrder="2147483647" visible="true">
+   <Properties value="person.name">
+      <Fields>
+         <Field name="person.name" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Name">
+            <SampleValue>Mark Zuckerberg</SampleValue>
+         </Field>
+         <Field name="affiliation.network" type="string" nullable="true" hidden="false" readonly="true" description="" displayName="Network">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="affiliation.uid" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="UID">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="affiliation.profile-url" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Profile URL">
+            <SampleValue></SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

@@ -1,0 +1,10 @@
+<MaltegoEntity id="maltego.File" displayName="File" displayNamePlural="Files" description="A file stored internally in the graph" category="Personal" smallIconResource="File" largeIconResource="File" allowedRoot="false" conversionOrder="2147483647" visible="true">
+   <Properties value="description">
+      <Fields>
+         <Field name="source" type="url" nullable="true" hidden="false" readonly="false" description="" displayName="Source"/>
+         <Field name="description" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Description">
+            <SampleValue>File</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

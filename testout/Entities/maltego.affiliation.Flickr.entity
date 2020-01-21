@@ -1,0 +1,13 @@
+<MaltegoEntity id="maltego.affiliation.Flickr" displayName="Affiliation - Flickr" displayNamePlural="Affiliations - Flickr" description="Membership of the Flickr social network" category="Social Network" smallIconResource="Flickr" largeIconResource="Flickr" allowedRoot="false" conversionOrder="2147483647" visible="true">
+   <BaseEntities>
+      <BaseEntity>maltego.Affiliation</BaseEntity>
+   </BaseEntities>
+   <Properties>
+      <Fields>
+         <Field name="affiliation.network" type="string" nullable="true" hidden="false" readonly="true" description="" displayName="Network">
+            <DefaultValue>Flickr</DefaultValue>
+            <SampleValue></SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

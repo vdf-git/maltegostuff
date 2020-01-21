@@ -1,0 +1,10 @@
+<MaltegoEntity id="catlover.Cat" displayName="Cat" displayNamePlural="Cats" description="Ontological representation of a cat" category="Catlove" smallIconResource="Monitoring" largeIconResource="Monitoring" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="properties.cat">
+      <Fields>
+         <Field name="properties.cat" type="string" nullable="true" hidden="false" readonly="false" description="Ontological cat" displayName="Cat">
+            <DefaultValue> </DefaultValue>
+            <SampleValue>Kitty</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

@@ -1,0 +1,11 @@
+<MaltegoEntity id="catlove.emailaddress" displayName="email address" displayNamePlural="email addresses" description="an email address" category="Catlove" smallIconResource="Email2" largeIconResource="Email2" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="properties.emailaddress">
+      <Groups/>
+      <Fields>
+         <Field name="properties.emailaddress" type="string" nullable="true" hidden="false" readonly="false" description="email address" displayName="email">
+            <DefaultValue> </DefaultValue>
+            <SampleValue>catlady@miau-crazy.com</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

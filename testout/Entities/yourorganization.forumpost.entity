@@ -1,0 +1,10 @@
+<MaltegoEntity id="yourorganization.forumpost" displayName="forum post" displayNamePlural="forum posts" description="post on a catlover forum" category="Catlove" smallIconResource="Phrase" largeIconResource="Phrase" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="properties.forumpost">
+      <Fields>
+         <Field name="properties.forumpost" type="string" nullable="true" hidden="false" readonly="false" description="Forum post" displayName="forum post">
+            <DefaultValue> </DefaultValue>
+            <SampleValue>-</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

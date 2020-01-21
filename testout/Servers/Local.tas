@@ -1,0 +1,10 @@
+<MaltegoServer name="Local" enabled="true" description="Local transforms hosted on this machine" url="http://localhost">
+   <LastSync>2019-02-04 19:18:51.673 CET</LastSync>
+   <Protocol version="0.0"/>
+   <Authentication type="none"/>
+   <Transforms>
+      <Transform name="catlove.Passwordofemail"/>
+      <Transform name="catlove.PasswordToEmail"/>
+   </Transforms>
+   <Seeds/>
+</MaltegoServer>

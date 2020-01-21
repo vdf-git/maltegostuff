@@ -1,0 +1,15 @@
+<MaltegoEntity id="maltego.Port" displayName="Port" displayNamePlural="Ports" description="A TCP/UDP network port" category="Penetration Testing" smallIconResource="Port" largeIconResource="Port" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="port.number">
+      <Groups/>
+      <Fields>
+         <Field name="port.number" type="int" nullable="true" hidden="false" readonly="false" description="" displayName="Port number">
+            <DefaultValue>80</DefaultValue>
+            <SampleValue>0</SampleValue>
+         </Field>
+         <Field name="properties.port" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Port">
+            <DefaultValue> </DefaultValue>
+            <SampleValue>443</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

@@ -1,0 +1,22 @@
+<MaltegoEntity id="maltego.Service" displayName="Service" displayNamePlural="Services" description="Network service (port and banner combination)" category="Penetration Testing" smallIconResource="Service" largeIconResource="Service" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="service.name">
+      <Fields>
+         <Field name="service.name" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Description">
+            <DefaultValue>80/Apache 9</DefaultValue>
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="port.number" type="int" nullable="true" hidden="false" readonly="false" description="" displayName="Port">
+            <DefaultValue>80</DefaultValue>
+            <SampleValue>0</SampleValue>
+         </Field>
+         <Field name="banner.text" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Service banner">
+            <DefaultValue>Apache 9</DefaultValue>
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="properties.service" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Service">
+            <DefaultValue> </DefaultValue>
+            <SampleValue>80:Apache</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

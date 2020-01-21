@@ -1,0 +1,30 @@
+<MaltegoEntity id="maltego.TwitterUserList" displayName="Twitter User List" displayNamePlural="Twitter User Lists" description="Twitter User List entity" category="Social Network" smallIconResource="Twitter" largeIconResource="Twitter" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="twitter.list.name">
+      <Fields>
+         <Field name="twitter.list.name" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Name">
+            <SampleValue>Staff</SampleValue>
+         </Field>
+         <Field name="twitter.list.fullname" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Full Name">
+            <SampleValue>@Paterva/staff</SampleValue>
+         </Field>
+         <Field name="twitter.list.id" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="ID">
+            <SampleValue>211220868</SampleValue>
+         </Field>
+         <Field name="twitter.list.description" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Description">
+            <SampleValue>Direct Paterva staff.</SampleValue>
+         </Field>
+         <Field name="twitter.list.members" type="int" nullable="true" hidden="false" readonly="false" description="" displayName="Member Count">
+            <SampleValue>3</SampleValue>
+         </Field>
+         <Field name="twitter.list.subscribers" type="int" nullable="true" hidden="false" readonly="false" description="" displayName="Subscriber Count">
+            <SampleValue>0</SampleValue>
+         </Field>
+         <Field name="twitter.list.slug" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Slug">
+            <SampleValue>staff</SampleValue>
+         </Field>
+         <Field name="twitter.list.uri" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="URI">
+            <SampleValue>/Paterva/lists/staff</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

@@ -1,0 +1,9 @@
+<MaltegoEntity id="maltego.WebTitle" displayName="Website Title" displayNamePlural="Website Titles" description="Title of a website" category="Infrastructure" smallIconResource="Alarm" largeIconResource="Alarm" allowedRoot="false" conversionOrder="2147483647" visible="true">
+   <Properties value="title">
+      <Fields>
+         <Field name="title" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Title">
+            <SampleValue>Paterva (Pty) Ltd</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

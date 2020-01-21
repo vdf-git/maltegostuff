@@ -1,0 +1,11 @@
+<MaltegoEntity id="maltego.Sentiment" displayName="Sentiment" displayNamePlural="Sentiments" description="This represent the sentiment towards an entity." category="Personal" smallIconResource="Smile" largeIconResource="Smile" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="properties.sentiment">
+      <Groups/>
+      <Fields>
+         <Field name="properties.sentiment" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Sentiment">
+            <DefaultValue> </DefaultValue>
+            <SampleValue>Positive</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

@@ -1,0 +1,9 @@
+<MaltegoEntity id="maltego.AS" displayName="AS" displayNamePlural="ASs" description="An internet Autonomous System (AS)" category="Infrastructure" smallIconResource="AS" largeIconResource="AS" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="as.number">
+      <Fields>
+         <Field name="as.number" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="AS Number">
+            <SampleValue>188</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

@@ -1,0 +1,28 @@
+<MaltegoEntity id="maltego.GPS" displayName="GPS Coordinate" displayNamePlural="GPS Coordinates" description="A location on a World Geodetic System coordinate frame for Earth" category="Locations" smallIconResource="GPS" largeIconResource="GPS" allowedRoot="true" conversionOrder="200" visible="true">
+   <Converter>
+      <Value><![CDATA[^\s*([\-\d.]+)\s*,\s*([\-\d.]+)\s*$]]></Value>
+      <RegexGroups>
+         <RegexGroup property="latitude"/>
+         <RegexGroup property="longitude"/>
+      </RegexGroups>
+   </Converter>
+   <Properties value="gps.coordinate">
+      <Fields>
+         <Field name="gps.coordinate" type="string" nullable="true" hidden="false" readonly="false" description="" evaluator="maltego.replace" displayName="GPS Coordinate">
+            <DefaultValue>$property(latitude),$property(longitude)</DefaultValue>
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="latitude" type="float" nullable="true" hidden="false" readonly="false" description="" displayName="Latitude">
+            <SampleValue>38.951633</SampleValue>
+         </Field>
+         <Field name="longitude" type="float" nullable="true" hidden="false" readonly="false" description="" displayName="Longitude">
+            <SampleValue>-77.14462</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+   <Actions>
+      <Action displayName="Google Maps Me!" name="maltego.spec.action.googlemaps" type="maltego.spec.action.type.browser">
+         <Config><![CDATA[http://maps.google.com/maps?ll=$property(latitude),$property(longitude)]]></Config>
+      </Action>
+   </Actions>
+</MaltegoEntity>

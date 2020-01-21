@@ -1,0 +1,13 @@
+<MaltegoEntity id="maltego.Document" displayName="Document" displayNamePlural="Documents" description="A document on the Internet" category="Personal" smallIconResource="Document" largeIconResource="Document" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="url" displayValue="title">
+      <Fields>
+         <Field name="title" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Title">
+            <SampleValue>Some Document</SampleValue>
+         </Field>
+         <Field name="document.meta-data" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Meta-Data">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="url" type="url" nullable="true" hidden="false" readonly="false" description="" displayName="URL"/>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

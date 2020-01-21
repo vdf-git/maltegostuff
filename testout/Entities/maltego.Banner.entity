@@ -1,0 +1,8 @@
+<MaltegoEntity id="maltego.Banner" displayName="Banner" displayNamePlural="Banners" description="Banner" category="Infrastructure" smallIconResource="Banner" largeIconResource="Banner" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <BaseEntities>
+      <BaseEntity>maltego.Phrase</BaseEntity>
+   </BaseEntities>
+   <Properties>
+      <Fields/>
+   </Properties>
+</MaltegoEntity>

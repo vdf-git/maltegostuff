@@ -1,0 +1,30 @@
+#!/usr/bin/env python3
+
+from elasticsearch import Elasticsearch
+import json
+import argparse
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--file', dest='infile', required=True)
+    parser.add_argument('--index', dest='index', required=True)
+    args = parser.parse_args()
+
+    es = Elasticsearch()
+
+    try:
+        es.delete(index=args.index)
+    except:
+        pass
+
+    es.
+    infile = open(args.infile)
+    myid = 0
+    for line in infile.readlines():
+        myid += 1
+        doc = json.loads(line)
+        doc[_id] = myid
+        
+
+if __name__ == "__main__":
+    main()

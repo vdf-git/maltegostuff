@@ -1,0 +1,34 @@
+<MaltegoEntity id="maltego.affiliation.Twitter" displayName="Affiliation - Twitter" displayNamePlural="Affiliations - Twitter" description="Membership of Twitter" category="Social Network" smallIconResource="Twitter" largeIconResource="Twitter" allowedRoot="false" conversionOrder="2147483647" visible="true">
+   <BaseEntities>
+      <BaseEntity>maltego.Affiliation</BaseEntity>
+   </BaseEntities>
+   <Properties value="person.name">
+      <Fields>
+         <Field name="person.name" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Name">
+            <SampleValue>Paterva</SampleValue>
+         </Field>
+         <Field name="affiliation.network" type="string" nullable="true" hidden="false" readonly="true" description="" displayName="Network">
+            <DefaultValue>Twitter</DefaultValue>
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="affiliation.uid" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="UID">
+            <SampleValue>Paterva</SampleValue>
+         </Field>
+         <Field name="affiliation.profile-url" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Profile URL">
+            <SampleValue>http://twitter.com/Paterva</SampleValue>
+         </Field>
+         <Field name="twitter.id" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Twitter ID">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="twitter.screen-name" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Screen Name">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="twitter.friendcount" type="int" nullable="true" hidden="false" readonly="false" description="" displayName="Friend Count">
+            <SampleValue>0</SampleValue>
+         </Field>
+         <Field name="person.fullname" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Real Name">
+            <SampleValue></SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

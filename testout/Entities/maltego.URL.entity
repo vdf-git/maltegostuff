@@ -1,0 +1,20 @@
+<MaltegoEntity id="maltego.URL" displayName="URL" displayNamePlural="URLs" description="An internet Uniform Resource Locator (URL)" category="Infrastructure" smallIconResource="URL" largeIconResource="URL" allowedRoot="true" conversionOrder="90" visible="true">
+   <Converter>
+      <Value><![CDATA[(http[s]*://([-\w\.\:]*)[-\w\.\:/]*/[^\s\?]*(\?[^\s]*)?)]]></Value>
+      <RegexGroups>
+         <RegexGroup property="url"/>
+         <RegexGroup property="short-title"/>
+      </RegexGroups>
+   </Converter>
+   <Properties value="url" displayValue="short-title">
+      <Fields>
+         <Field name="short-title" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Short title">
+            <SampleValue>URL Title</SampleValue>
+         </Field>
+         <Field name="url" type="url" nullable="true" hidden="false" readonly="false" description="" displayName="URL"/>
+         <Field name="title" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Title">
+            <SampleValue>URL Title</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

@@ -1,0 +1,10 @@
+<MaltegoEntity id="catlove.Picture" displayName="Picture" displayNamePlural="Pictures" description="Picture of a cat" category="Catlove" smallIconResource="Image" largeIconResource="Image" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="properties.picture">
+      <Fields>
+         <Field name="properties.picture" type="string" nullable="true" hidden="false" readonly="false" description="Image of a cat" displayName="Picture">
+            <DefaultValue> </DefaultValue>
+            <SampleValue>-</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

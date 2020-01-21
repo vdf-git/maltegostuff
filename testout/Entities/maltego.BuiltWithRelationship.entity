@@ -1,0 +1,13 @@
+<MaltegoEntity id="maltego.BuiltWithRelationship" displayName="BuiltWith Relationship" displayNamePlural="BuiltWith Relationships" description="A Relationship identified by BuiltWith" category="Penetration Testing" smallIconResource="BuiltWith" largeIconResource="BuiltWith" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="properties.builtwithrelationship">
+      <Fields>
+         <Field name="properties.builtwithrelationship" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="BuiltWith Relationship">
+            <DefaultValue> </DefaultValue>
+            <SampleValue>-</SampleValue>
+         </Field>
+         <Field name="matches" type="string" nullable="true" hidden="true" readonly="true" description="" displayName="Matches">
+            <SampleValue></SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

@@ -1,0 +1,9 @@
+<MaltegoEntity id="maltego.BuiltWithTechnology" displayName="BuiltWith Technology" displayNamePlural="BuiltWith Technologies" description="A Technology identified by BuiltWith" category="Penetration Testing" smallIconResource="BuiltWith" largeIconResource="BuiltWith" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="builtwith.technology">
+      <Fields>
+         <Field name="builtwith.technology" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="BuiltWith Technology">
+            <SampleValue>BuiltWith Technology</SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>

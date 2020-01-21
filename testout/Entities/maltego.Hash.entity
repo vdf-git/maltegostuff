@@ -1,0 +1,26 @@
+<MaltegoEntity id="maltego.Hash" displayName="Hash" displayNamePlural="Hashes" description="Hash entity" category="Malware" smallIconResource="Virus" largeIconResource="Virus" allowedRoot="true" conversionOrder="2147483647" visible="true">
+   <Properties value="properties.hash">
+      <Groups/>
+      <Fields>
+         <Field name="properties.hash" type="string" nullable="true" hidden="false" readonly="false" description="A hash entity" displayName="Hash">
+            <DefaultValue> </DefaultValue>
+            <SampleValue>af30fca836142d6a0b8672f1e8f53acf</SampleValue>
+         </Field>
+         <Field name="type" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Hash Type">
+            <DefaultValue> </DefaultValue>
+            <SampleValue> </SampleValue>
+         </Field>
+         <Field name="owner" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Owner">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="before" type="date" nullable="true" hidden="false" readonly="false" description="" displayName="Before"/>
+         <Field name="after" type="date" nullable="true" hidden="false" readonly="false" description="" displayName="After"/>
+         <Field name="includeMediaType" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Included Media Types">
+            <SampleValue></SampleValue>
+         </Field>
+         <Field name="excludeMediaType" type="string" nullable="true" hidden="false" readonly="false" description="" displayName="Excluded Media Types">
+            <SampleValue></SampleValue>
+         </Field>
+      </Fields>
+   </Properties>
+</MaltegoEntity>
